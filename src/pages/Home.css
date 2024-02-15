@@ -1,0 +1,123 @@
+.banner-ad-wrapper {
+    display: flex;
+}
+
+.banner-ad {
+    margin: 24px auto;
+    display: flex;
+    justify-content: center;
+    width: 90%;
+}
+
+.banner-ad-image {
+    max-height: 66px;
+    width: 100%;
+}
+
+.home-ads-wrapper {
+    width: 100%;
+    margin: auto;
+}
+
+.home-ads-content {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+@media screen and (max-width: 1099px) {
+    .home-ads-content {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 859px) {
+    .home-ads-content {
+        height: 450px;
+    }
+}
+
+@media screen and (max-width: 679px) {
+    .home-ads-content {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 1099px) {
+    .home-square-ad-wrapper {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.home-square-ad {
+    display: flex;
+}
+
+@media screen and (max-width: 499px) {
+    .home-square-ad {
+        width: 60.12vw;
+        height: 50.1vw;
+    }
+}
+
+
+.carousel-section {
+    width: 90vw;
+    margin: auto;
+}
+
+.carousel-header {
+    margin: 8px 0 26px;
+}
+
+@media screen and (max-width: 649px) {
+    .carousel-header {
+        margin: 1.23vw 0 4.01vw;
+    }
+}
+
+.carousel-title {
+    margin: 2px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+}
+
+@media screen and (max-width: 649px) {
+    .carousel-title {
+        margin: .31vw;
+        font-size: 4.93vw;
+    }
+}
+
+.search-section {
+    width: 90vw;
+    margin: auto;
+}
+
+.search-title {
+    font-size: 32px;
+    line-height: 1;
+    font-weight: 700;
+    text-align: center;
+    color: inherit;
+    margin: 48px 0 24px;
+}
+
+@media screen and (max-width: 649px) {
+    .search-title {
+        font-size: 4.93vw;
+        margin: 7.4vw 0 3.7vw;
+    }
+}

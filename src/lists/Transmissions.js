@@ -1,0 +1,1 @@
+export const transmissions = ["Automatic", "CVT", "Manual" ];

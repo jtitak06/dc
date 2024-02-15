@@ -1,0 +1,90 @@
+.accordion-dropdown-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: fit-content;
+}
+
+.accordion-dropdown-list-item {
+    width: 60%;
+    min-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2px 0;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+}
+
+@media screen and (max-width: 649px) {
+    .accordion-dropdown-list-item {
+        min-width: 77.04vw;
+        margin: .31vw 0;
+        border: .15vw solid rgba(0, 0, 0, 0.2);
+        border-radius: .62vw;
+    }
+}
+
+.accordion-dropdown {
+    background: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 12px;
+    border: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 649px) {
+    .accordion-dropdown {
+        padding: 0 1.85vw;
+    }
+}
+
+.accordion-dropdown-subtitle {
+    font-size: 14px;
+    font-weight: 500;
+    text-align: left;
+}
+
+@media screen and (max-width: 649px) {
+    .accordion-dropdown-subtitle {
+        font-size: 2.16vw;
+    }
+}
+
+.accordion-dropdown-icon {
+    color: #ccc;
+}
+
+.accordion-answer-wrapper {
+    padding: 0 12px;
+}
+
+@media screen and (max-width: 649px) {
+    .accordion-answer-wrapper {
+        padding: 0 1.85vw;
+    }
+}
+
+.accordion-answer-wrapper.hidden {
+    display: none;
+    visibility: hidden;
+}
+
+.accordion-answer-text {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 649px) {
+    .accordion-answer-text {
+        font-size: 2.16vw;
+    }
+}

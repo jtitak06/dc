@@ -1,0 +1,54 @@
+.hero-section {
+    background-image: url('../images/truck-home.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 0 48px;
+    width: 100%;
+    background-position: center;
+}
+
+@media screen and (max-width: 499px) {
+    .hero-section {
+        padding-bottom: 9.6vw;
+        padding-top: calc(10vw + 50px);
+    }
+}
+
+@media screen and (max-width: 409px) {
+    .hero-section {
+        padding-top: 20.2vw;
+    }
+}
+
+.home-title {
+    color: #fff;
+    font-size: 48px;
+    font-weight: 500;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+@media screen and (max-width: 499px) {
+    .home-title {
+        font-size: 9.65vw;
+        text-shadow: 0 .2vw .6vw rgba(0, 0, 0, 0.2);
+        margin: 3.6vw 0 2.1vw;
+    }
+}
+
+.home-subtitle {
+    color: #fff;
+    margin: 0 0 60px;
+    font-size: 18px;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+@media screen and (max-width: 499px) {
+    .home-subtitle {
+        margin: 0 0 12.02vw;
+        font-size: 3.6vw;
+        text-shadow: 0 .2vw .6vw rgba(0, 0, 0, 0.2);
+    }
+}

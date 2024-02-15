@@ -1,0 +1,27 @@
+#article_holder {
+    width: 80%; /* Adjust the width as needed */
+    margin: auto;
+}
+
+.review_title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.review-details {
+    display: flex; /* Use flexbox to align items horizontally */
+}
+
+.article-image {
+    width: 100px; /* Adjust the image width as needed */
+    height: auto;
+    margin-right: 10px;
+    
+}
+
+.article-description {
+    font-size: 12px;
+    line-height: 1.5;
+    flex: 1;
+}

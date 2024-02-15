@@ -1,0 +1,119 @@
+.features-wrapper {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    border-bottom:rgba(0, 0, 0, 0.2) 1px solid;
+    width: 90vw;
+    margin: auto;
+    padding: 0;
+}
+
+.features-item {
+    display: flex;
+    padding: 1.75rem;
+}
+
+@media screen and (max-width: 1159px) {
+    .features-item {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 859px) {
+    .features-item {
+        flex-direction: row;
+    }
+}
+
+@media screen and (max-width: 699px) {
+    .features-item {
+        flex-direction: column;
+        width: fit-content;
+    }
+}
+
+@media screen and (max-width: 649px) {
+    .features-item {
+        padding: 4.3vw
+    }
+}
+
+.home-icon {
+    color: #00a5e3;
+    height: 48px;
+    width: 48px;
+    margin-right: 1.375rem;
+}
+
+@media screen and (max-width: 1159px) {
+    .home-icon {
+        margin-right: 0 !important;
+    }
+}
+
+@media screen and (max-width: 859px) {
+    .home-icon {
+        margin-right: 1.375rem !important;
+    }
+}
+
+@media screen and (max-width: 699px) {
+    .home-icon {
+        margin-right: 0 !important;
+    }
+}
+
+@media screen and (max-width: 649px) {
+    .home-icon {
+        height: 7.4vw !important;
+        width: 7.4vw !important;
+    }
+}
+
+.features-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: fit-content;
+}
+
+@media screen and (max-width: 859px) {
+    .features-info {
+        width: 180px;
+    }
+}
+
+@media screen and (max-width: 649px) {
+    .features-info {
+        width: 27.74vw;
+    }
+}
+
+.features-info-title {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 6px 0;
+}
+
+@media screen and (max-width: 649px) {
+    .features-info-title {
+        font-size: 2.47vw;
+        padding: .92vw 0;
+    }
+}
+
+.features-info-subtitle {
+    color: #6c757d;
+    margin: 0;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 649px) {
+    .features-info-subtitle {
+        font-size: 2.16vw;
+    }
+}

@@ -1,0 +1,1 @@
+export const driveTrains = ["4WD", "FWD", "RWD"];
