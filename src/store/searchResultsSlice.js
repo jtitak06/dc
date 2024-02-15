@@ -38,6 +38,7 @@ export const fetchSearchResults = createAsyncThunk(
   async (requestData, { rejectWithValue }) => {
     console.log(requestData, 'data-which-requesting');
     try {
+      // 69d85981-1856-436e-a3be-99c6bc4e83b4
       const API_KEY = process.env.REACT_APP_PUBLIC_DRIVE_CHICAGO_API_KEY;
       const baseUrl = `https://api.drivechicago.cloud/vehicle/search?apiKey=${API_KEY}`;
       console.log('Sending Request:', requestData);
